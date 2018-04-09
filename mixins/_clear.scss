@@ -1,0 +1,28 @@
+@mixin clear-input(){
+  outline: none;
+  background-color: transparent;
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none;
+  }
+  border: none;
+}
+
+@mixin clear-list(){
+  padding:0;
+  margin:0;
+  list-style:none
+}
+@mixin clear-button(){
+  padding:0;
+  margin:0;
+  outline: none;
+  background-color: transparent;
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none;
+  }
+  border: none;
+}

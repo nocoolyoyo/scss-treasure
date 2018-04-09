@@ -1,0 +1,18 @@
+@mixin active-opacity($value:.6, $duration:.3s, $animation: ease){
+    &:active {
+      opacity : $value;
+       transition: opacity $duration $animation
+    }
+}
+
+@mixin hover-bg(
+        $bgColor: white,
+        $mix: lighten,
+        $mixVal: 5%,
+        $duration: .3s,
+        $animation: ease){
+  &:hover {
+    background-color: #{$mix}($bgColor, $mixVal);
+    transition: backgroundColor $duration $animation
+  }
+}
