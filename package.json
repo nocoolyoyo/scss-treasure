@@ -1,8 +1,8 @@
 {
   "name": "scss-treasure",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "scss常用mixin function variables 适配方案合集",
-  "main": "index.js",
+  "main": "import.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
