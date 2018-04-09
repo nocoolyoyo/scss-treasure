@@ -1,0 +1,22 @@
+{
+  "name": "scss-treasure",
+  "version": "1.0.0",
+  "description": "scss常用mixin function variables 适配方案合集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nocoolyoyo/scss-treasure.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "nocoolyoyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nocoolyoyo/scss-treasure/issues"
+  },
+  "homepage": "https://github.com/nocoolyoyo/scss-treasure#readme"
+}
