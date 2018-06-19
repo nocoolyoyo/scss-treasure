@@ -1,3 +1,6 @@
+/**
+ * 重置input样式
+ */
 @mixin clear-input(){
   outline: none;
   background-color: transparent;
@@ -8,12 +11,17 @@
   }
   border: none;
 }
-
+/**
+ * 重置ul样式
+ */
 @mixin clear-list(){
   padding:0;
   margin:0;
   list-style:none
 }
+/**
+ * 重置button样式
+ */
 @mixin clear-button(){
   padding:0;
   margin:0;

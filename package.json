@@ -4,7 +4,8 @@
   "description": "scss常用mixin function variables 适配方案合集",
   "main": "import.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "nrm use npm && npm publish"
   },
   "repository": {
     "type": "git",
