@@ -1,3 +1,6 @@
+/**
+ * 滚动容器
+ */
 @mixin scroller($dir:y){
   @if($dir == y){
     overflow: auto;

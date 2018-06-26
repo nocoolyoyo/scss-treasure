@@ -1,6 +1,6 @@
 {
   "name": "scss-treasure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scss常用mixin function variables 适配方案合集",
   "main": "import.scss",
   "scripts": {
