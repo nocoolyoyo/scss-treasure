@@ -1,7 +1,7 @@
 {
   "name": "scss-treasure",
-  "version": "0.0.2",
-  "description": "scss常用mixin function variables 适配方案合集",
+  "version": "0.0.4",
+  "description": "scss常用mixin function variables 适配方案合集,配合es-treasure的device属性实现各种适配",
   "main": "import.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

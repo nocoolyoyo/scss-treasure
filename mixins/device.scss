@@ -1,0 +1,46 @@
+/**
+ * 手机模式
+ */
+//@mixin client-mode(
+//    $type: false,    // mobile, pc
+//    $os: false//window, android, ios
+//){
+//    @if($type && $os){
+//        @at-root html[data-client-type="$type"] html[data-client-os="#{$os}"] &{
+//            @content
+//        }
+//    }@if($type){
+//        @at-root html[data-client-os="#{$type}"] &{
+//            @content
+//
+//        }
+//    }@if($os){
+//        @at-root html[data-client-os="#{$os}"] &{
+//            @content
+//
+//        }
+//    }
+//}
+
+@mixin client-mobile(){
+    @at-root html[data-client-type="mobile"] &{
+        @content
+    }
+}
+@mixin client-pc(){
+    @at-root html[data-client-type="pc"] &{
+        @content
+    }
+}
+@mixin os-ios(){
+    @at-root html[data-client-os="IOS"] &{
+        @content
+    }
+}
+@mixin os-android(){
+    @at-root html[data-client-os="Android"] &{
+        @content
+    }
+}
+
+

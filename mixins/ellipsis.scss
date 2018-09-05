@@ -1,0 +1,33 @@
+/*---段落截取(仅适用于webkit浏览器)---*/
+
+//@mixin  ellipsis: 段落截取
+//@param $line: 截取的行数
+
+@mixin ellipsis($line:1){
+  word-break: break-all;
+  @if $line == 1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }@else{
+    text-overflow:clip;
+    display: -webkit-box;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp:$line;
+    -webkit-box-orient: vertical;
+  }
+}
+
+//@mixin  flex-ellipsis: flex容器中的段落截取
+//@param $line: 截取的行数
+@mixin flex-ellipsis($line:1){
+  word-break: break-all;
+  text-overflow:clip;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: normal !important;
+  -webkit-line-clamp:$line;
+  -webkit-box-orient: vertical;
+}

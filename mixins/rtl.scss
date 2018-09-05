@@ -1,0 +1,17 @@
+/**
+ * ltl方向断点
+ */
+@mixin ltl(){
+  @at-root html:not([dir="rtl"]) &{
+    @content
+  }
+}
+/**
+ * rtl方向断点
+ */
+@mixin rtl(){
+  @at-root html[dir="rtl"] &{
+    @content
+  }
+}
+

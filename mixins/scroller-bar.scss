@@ -15,8 +15,8 @@
   $direction : y,
   $size: 7px,
   $bgColor:#a6a6a6,
-  $color:#e5e5e5){
-
+  $color:#e5e5e5
+){
   &::-webkit-scrollbar-thumb {
     background-color: $bgColor;
   }
